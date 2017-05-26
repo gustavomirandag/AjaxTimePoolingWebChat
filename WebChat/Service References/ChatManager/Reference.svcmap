@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2714eb34-9655-42f2-a95e-581e1589eece" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pochattochat.cloudapp.net/ChatManager.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ChatManager1.disco" MetadataType="Disco" ID="55c171be-a9fa-4d22-a68a-25faa624d728" SourceId="1" SourceUrl="http://pochattochat.cloudapp.net/ChatManager.svc?disco" />
+    <MetadataFile FileName="ChatManager3.xsd" MetadataType="Schema" ID="1426e2d5-ba52-4cd6-8148-157aeb297ef2" SourceId="1" SourceUrl="http://pochattochat.cloudapp.net/ChatManager.svc?xsd=xsd1" />
+    <MetadataFile FileName="ChatManager1.wsdl" MetadataType="Wsdl" ID="f165364c-1e88-4719-9184-c3f62160672e" SourceId="1" SourceUrl="http://pochattochat.cloudapp.net/ChatManager.svc?wsdl" />
+    <MetadataFile FileName="ChatManager31.xsd" MetadataType="Schema" ID="4da5e25f-1e1f-4320-b7df-b5c5b8199902" SourceId="1" SourceUrl="http://pochattochat.cloudapp.net/ChatManager.svc?xsd=xsd0" />
+    <MetadataFile FileName="ChatManager32.xsd" MetadataType="Schema" ID="4dc0c394-93ec-429d-8a16-a882fd22b043" SourceId="1" SourceUrl="http://pochattochat.cloudapp.net/ChatManager.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
